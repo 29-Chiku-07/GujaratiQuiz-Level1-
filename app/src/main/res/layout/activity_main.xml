@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:text="@string/start"
+        android:textColor="#ecaa00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/sc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="180dp"
+        android:text="@string/sc"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="230dp"
+        android:textSize="30dp"/>
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="શરૂઆત -->"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/exit"
+        android:background="@android:color/transparent"
+        android:paddingBottom="10sp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="બહાર નીકળો"
+        android:background="@android:color/transparent"
+        android:layout_above="@+id/about"
+        android:layout_marginBottom="80dp"
+        android:paddingBottom="10sp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="વિશે"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10sp"
+        android:textSize="25sp" />
+
+
+
+
+
+</RelativeLayout>

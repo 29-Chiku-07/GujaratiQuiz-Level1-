@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bharati Script Quiz</string>
+    <string name="start">ગુજરાતી પ્રશ્નનો જવાબ રમત</string>
+    <string name="sc">સ્કોર</string>
+    <string name="exit">બહાર નીકળો</string>
+    <string
+        name="site1"><a href="https://www.bharatiscript.com/">www.bharatiscript.com/</a></string>
+    <string name="site2"><a href="http://www.bit.ly/BharatiFB">www.bit.ly/BharatiFB</a></string>
+    <string name="site3"><a href="http://www.bit.ly/BharatiYouTube">http://www.bit.ly/BharatiYouTube</a></string>
+</resources>
